@@ -6,7 +6,7 @@ from tkinter import *
 def connect():  # Συνδεση με mysql
     try:
         conn = mysql.connector.connect(
-            host="150.140.186.221", user="db20_up1053630", passwd="up1053630", database="project_db20_up1053630")
+            host="hostname", user="username", passwd="passwd", database="project_database")
     except mysql.connector.Error as e:
         print(e)
         return False
